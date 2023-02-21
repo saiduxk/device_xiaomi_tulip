@@ -1,0 +1,189 @@
+<compatibility-matrix version="1.0" type="framework">
+    <hal format="hidl">
+        <name>com.fingerprints.extension</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IFingerprintAuthenticator</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFingerprintCalibration</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFingerprintEngineering</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFingerprintNavigation</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFingerprintRecalibration</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFingerprintSenseTouch</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFingerprintSensorTest</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.goodix.hardware.fingerprint</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IGoodixBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>com.qualcomm.qti.ant</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IAntHci</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+         <name>vendor.xiaomi.hardware.mlipay</name>
+         <version>1.0-1</version>
+         <interface>
+            <name>IMlipayService</name>
+            <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.wifi.hostapd</name>
+        <version>1.0</version>
+        <interface>
+           <name>IHostapd</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.wifi.supplicant</name>
+        <version>1.0</version>
+        <interface>
+           <name>ISupplicant</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.wifi</name>
+        <version>1.6</version>
+        <interface>
+           <name>IWifi</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.vibrator</name>
+        <version>1.0</version>
+        <interface>
+           <name>IVibrator</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.power.stats</name>
+        <version>1.0</version>
+        <interface>
+           <name>IPowerStats</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.power</name>
+        <version>1.0</version>
+        <interface>
+           <name>IPower</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.light</name>
+        <version>1.0</version>
+        <interface>
+           <name>ILights</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+       <name>android.hardware.health</name>
+       <version>2.1</version>
+       <interface>
+          <name>IHealth</name>
+          <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.drm</name>
+        <version>1.4</version>
+        <interface>
+           <name>IDrmFactory</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.drm</name>
+        <version>1.4</version>
+        <interface>
+           <name>ICryptoFactory</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.drm</name>
+        <version>1.2</version>
+        <interface>
+           <name>IDrmFactory</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.drm</name>
+        <version>1.2</version>
+        <interface>
+           <name>ICryptoFactory</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.drm</name>
+        <version>1.2</version>
+        <interface>
+           <name>IMediaCasService</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.bluetooth.audio</name>
+        <version>2.0</version>
+        <interface>
+           <name>IBluetoothAudioProvidersFactory</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.audio</name>
+        <version>5.0</version>
+        <interface>
+           <name>IDevicesFactory</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="hidl">
+        <name>.hardware.audio.effect</name>
+        <version>5.0</version>
+        <interface>
+           <name>IEffectsFactory</name>
+           <instance>default</instance>
+    </interface>
+    </hal>
+</compatibility-matrix>
