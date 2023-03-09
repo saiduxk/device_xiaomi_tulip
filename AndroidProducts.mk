@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_tulip.mk
+    $(LOCAL_DIR)/p404_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_tulip-user \
-    arrow_tulip-userdebug \
-    arrow_tulip-eng
+    p404_tulip-user \
+    p404_tulip-userdebug \
+    p404_tulip-eng

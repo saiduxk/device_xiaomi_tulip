@@ -8,17 +8,21 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common P404 stuff
+$(call inherit-product, vendor/404/configs/common.mk)
 
 # Inherit from tulip device
 $(call inherit-product, device/xiaomi/tulip/device.mk)
 
-# FaceUnlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
+# Build type
+ifeq ($(WITH_GAPPS),true)
+P404_BUILDTYPE := tokui-Gapps
+else
+P404_BUILDTYPE := tokui-Vanilla
+endif
 
 # Device Info
-PRODUCT_NAME := arrow_tulip
+PRODUCT_NAME := p404_tulip
 PRODUCT_DEVICE := tulip
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 6 Pro
